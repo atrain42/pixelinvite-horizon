@@ -1,0 +1,60 @@
+.registry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.registry img {
+  margin-bottom: 50px;
+}
+
+.registry-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.registry-text h2 {
+  margin-bottom: 10px;
+}
+
+.registry p {
+  font-size: clamp(23px, 6vw, 35px);
+  width: 600px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.registry button {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--text-black);
+  padding: 10px 20px;
+}
+
+@media (max-width: 800px) {
+  .registry {
+    padding: 100px 25px;
+  }
+
+  .registry p {
+    width: 100%;
+  }
+
+  .registry img {
+    height: 300px;
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .registry img {
+    height: 200px;
+    width: auto;
+  }
+}
