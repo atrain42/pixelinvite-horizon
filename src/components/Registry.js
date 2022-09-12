@@ -6,7 +6,7 @@ const Registry = () => {
     <section className="registry" id="registry">
       <div className="registry-text">
         <h2>Our registry</h2>
-        <h3>We are registed at babylist.com</h3>
+        <h3>We are registed at buybuybaby.com</h3>
       </div>
       <img src={happy} alt="happy couple" />
       <p>
@@ -15,7 +15,7 @@ const Registry = () => {
         Below is the registry if you would like to help us prepare for the
         baby's arrival.
       </p>
-      <button>REGISTRY</button>
+      <a href="https://www.buybuybaby.com/">REGISTRY</a>
     </section>
   );
 };

@@ -29,7 +29,9 @@
   margin-bottom: 60px;
 }
 
-.registry button {
+.registry a {
+  text-decoration: none;
+  color: var(--text-black);
   font-size: 15px;
   cursor: pointer;
   background-color: transparent;
@@ -56,5 +58,11 @@
   .registry img {
     height: 200px;
     width: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .registry-text h3 {
+    font-size: 15px;
   }
 }
