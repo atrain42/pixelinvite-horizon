@@ -7,7 +7,7 @@
 }
 
 .quote p {
-  font-size: clamp(22px, 8vw, 33px);
+  font-size: clamp(19px, 6vw, 33px);
   width: 600px;
   text-align: center;
   margin-bottom: 40px;
