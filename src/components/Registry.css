@@ -30,6 +30,7 @@
 }
 
 .registry a {
+  border-radius: 5px;
   text-decoration: none;
   color: var(--text-black);
   font-size: 15px;
@@ -37,6 +38,14 @@
   background-color: transparent;
   border: 1px solid var(--text-black);
   padding: 10px 20px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.15s ease-in;
+}
+
+@media (hover: hover) {
+  .registry a:hover {
+    border-radius: 15px;
+  }
 }
 
 @media (max-width: 800px) {

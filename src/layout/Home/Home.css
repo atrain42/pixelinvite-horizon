@@ -26,6 +26,7 @@ main {
   align-items: center;
   font-family: "Lora", sans-serif;
   color: #fff;
+  text-align: center;
 }
 
 .header-text h1 {
